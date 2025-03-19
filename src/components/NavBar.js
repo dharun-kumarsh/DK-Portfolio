@@ -24,7 +24,7 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
 
     useEffect(() => {
         router.prefetch(href)
-    }, [href]);
+    }, [router]);
 
     const handleClick = () => {
         toggle();
