@@ -59,7 +59,7 @@ const CertificateModal = ({ isOpen, onClose, img, certificateName }) => {
                         animate={{ y: 0, opacity: 1 }}
                         exit={{ y: 50, opacity: 0 }}
                     >
-                        <h2 className='text-xl font-bold mb-4 text-center'>{certificateName}</h2>
+                        <h2 className='text-xl font-bold mb-4 text-center text-dark dark:text-light'>{certificateName}</h2>
 
                         <div className='w-full max-h-[70vh] overflow-y-auto rounded-lg'>
                             <Image
