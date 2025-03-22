@@ -53,9 +53,9 @@ const NavBar = React.memo(() => {
     return (
         <header className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8'>
             <button className='flex-col justify-center items-center hidden lg:flex' onClick={handleClick}>
-                <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-2.5' : '-translate-y-0.5'}`}></span>
+                <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
                 <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
-                <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : '-translate-y-0.5'}`}></span>
+                <span className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
             </button>
 
             <div className='w-full flex justify-between items-center lg:hidden'>
@@ -65,8 +65,8 @@ const NavBar = React.memo(() => {
                     <CustomLink href="/projects" title="Projects" className='mx-4' />
                     <CustomLink href="/events" title="Events" className='mx-4' />
                     <CustomLink href="/certifications" title="Certifications" className='mx-4' />
-                </nav>
 
+                </nav>
                 <nav className='flex items-center justify-center flex-wrap'>
                     {[
                         { href: "https://x.com/DharunSH0302006", src: "/images/svgs/twitter.svg", alt: "Twitter" },
@@ -101,6 +101,25 @@ const NavBar = React.memo(() => {
                         <CustomMobileLink href="/events" title="Events" toggle={handleClick} />
                         <CustomMobileLink href="/certifications" title="Certifications" toggle={handleClick} />
                     </nav>
+                    <nav className='flex items-center justify-center flex-wrap'>
+                        {[
+                            { href: "https://x.com/DharunSH0302006", src: "/images/svgs/twitter.svg", alt: "Twitter" },
+                            { href: "https://github.com/dharun-kumarsh", src: "/images/svgs/logo-github.svg", alt: "Github", className: "dark:invert-0 invert" },
+                            { href: "https://www.linkedin.com/in/dharun-kumar-s-h-0362702a2/", src: "/images/svgs/linkedin.svg", alt: "Linkedin" },
+                            { href: "https://in.pinterest.com/techpro03dharun/", src: "/images/svgs/pinterest.svg", alt: "Pinterest", className:"dark:bg-light rounded-full"},
+                            { href: "https://dribbble.com/iam_dharun", src: "/images/svgs/dribbble-icon.svg", alt: "Dribbble" },
+                        ].map(({ href, src, alt, className = "" }, index) => (
+                            <motion.a key={index} className='w-6 mx-3' whileTap={{ scale: 0.9 }} whileHover={{ y: -3 }} href={href} target="_blank">
+                                <Image src={src} width={24} height={24} alt={alt} className={className} />
+                            </motion.a>
+                        ))}
+
+                        <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className="ml-3 flex items-center justify-center rounded-full p-1">
+                            <span className="w-6 h-6 transition-all duration-300">
+                                {mode === "dark" ? <SunDim size={24} weight="fill" className='dark:invert invert-0' /> : <MoonStars size={24} weight="fill" />}
+                            </span>
+                        </button>
+                    </nav>
                 </motion.div>
             )}
 
@@ -111,7 +130,6 @@ const NavBar = React.memo(() => {
     );
 });
 
-// ✅ Fix for missing display name
 NavBar.displayName = "NavBar";
 
 export default NavBar;
