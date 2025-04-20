@@ -9,6 +9,7 @@ import project1 from '../../public/images/projects/project1.png'
 import project2 from '../../public/images/projects/project2.png'
 import project3 from '../../public/images/projects/project3.png'
 import project4 from '../../public/images/projects/project4.png'
+import project5 from '../../public/images/projects/project5.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -137,18 +138,18 @@ const projects = () => {
                             <FeaturedProject
                                 title={"AI Resume Screening Application"}
                                 img={project4}
-                                summary={"Revolutionize our content creation with our AI-powered app, delivering engaging and high-quality text in seconds."}
+                                summary={"Streamline your hiring process with our AI-powered resume screener that analyzes skills, matches job descriptions, and identifies top candidates instantly."}
                                 link={"https://jobfit-resume-screener.onrender.com/"}
-                                github={"/"}
+                                github={"https://github.com/dharun-kumarsh/IT-Warriorz"}
                                 type={"Full Stack Web Application"}
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title={"Image Search Engine"}
-                                img={project1}
-                                link={"https://snap-seek-freebird.vercel.app/"}
-                                github={"/"}
+                                title={"Amaran - Official Fan Website"}
+                                img={project5}
+                                link={"https://amaran-fan-hub.vercel.app/"}
+                                github={"https://github.com/dharun-kumarsh/AmaranFanHub"}
                                 type={"Web Application"}
                             />
                         </div>
