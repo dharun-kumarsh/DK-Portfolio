@@ -135,15 +135,15 @@ const projects = () => {
                         </div>
                         <div className='col-span-12'>
                             <FeaturedProject
-                                title={"AI Content Generator Application"}
+                                title={"AI Resume Screening Application"}
                                 img={project4}
                                 summary={"Revolutionize our content creation with our AI-powered app, delivering engaging and high-quality text in seconds."}
-                                link={"https://ai-content-gen-freebird.vercel.app/"}
+                                link={"https://jobfit-resume-screener.onrender.com/"}
                                 github={"/"}
                                 type={"Full Stack Web Application"}
                             />
                         </div>
-                        {/* <div className='col-span-6 sm:col-span-12'>
+                        <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title={"Image Search Engine"}
                                 img={project1}
@@ -152,7 +152,7 @@ const projects = () => {
                                 type={"Web Application"}
                             />
                         </div>
-                        <div className='col-span-6 sm:col-span-12'>
+                        {/* <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title={"Image Search Engine"}
                                 img={project1}
