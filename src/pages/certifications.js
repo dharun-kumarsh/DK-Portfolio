@@ -9,6 +9,7 @@ import certificate1 from '../../public/images/certificates/certificate1.jpeg'
 import certificate2 from '../../public/images/certificates/certificate2.jpeg'
 import certificate3 from '../../public/images/certificates/certificate3.jpeg'
 import certificate4 from '../../public/images/certificates/certificate4.jpeg'
+import certificate5 from '../../public/images/certificates/certificate5.jpg'
 
 const FramerImage = motion(Image)
 
@@ -136,6 +137,13 @@ const Certifications = () => {
                             issuedBy="DevDynasty Club - MSEC"
                             issueDate="October 2024"
                             img={certificate4}
+                            onView={openModal}
+                        />
+                        <CertificateCard
+                            certificateName="Industrial Visit Certificate"
+                            issuedBy="Redback IT Solutions Private Limited"
+                            issueDate="March 2025"
+                            img={certificate5}
                             onView={openModal}
                         />
                     </ul>
