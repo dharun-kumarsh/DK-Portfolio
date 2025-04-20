@@ -8,6 +8,7 @@ import GithubIcon from '../../public/images/svgs/logo-github.svg'
 import project1 from '../../public/images/projects/project1.png'
 import project2 from '../../public/images/projects/project2.png'
 import project3 from '../../public/images/projects/project3.png'
+import project4 from '../../public/images/projects/project4.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -132,17 +133,17 @@ const projects = () => {
                                 type={"Simple Web Application"}
                             />
                         </div>
-                        {/* <div className='col-span-12'>
+                        <div className='col-span-12'>
                             <FeaturedProject
                                 title={"AI Content Generator Application"}
-                                img={project1}
+                                img={project4}
                                 summary={"Revolutionize our content creation with our AI-powered app, delivering engaging and high-quality text in seconds."}
                                 link={"https://ai-content-gen-freebird.vercel.app/"}
                                 github={"/"}
                                 type={"Full Stack Web Application"}
                             />
                         </div>
-                        <div className='col-span-6 sm:col-span-12'>
+                        {/* <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title={"Image Search Engine"}
                                 img={project1}
