@@ -9,6 +9,9 @@ import event1 from '../../public/images/events/event1.jpeg'
 import event2 from '../../public/images/events/event2.jpeg'
 import event3 from '../../public/images/events/event3.jpeg'
 import event4 from '../../public/images/events/event4.jpeg'
+import event5 from '../../public/images/events/event5.jpg'
+import event6 from '../../public/images/events/event6.jpg'
+import event7 from '../../public/images/events/event7.jpg'
 
 const FramerImage = motion(Image)
 
@@ -88,6 +91,27 @@ const Events = () => {
                             eventDate="February 2025"
                             img={event4}
                             skills={["AI Prompting", "Problem Solving", "UI/UX Design", "Team Work"]}
+                        />
+                        <EventCard
+                            eventName="Hackintym'25 - A 30 hour hackathon"
+                            hostedBy="MSEC - DevDynasty Club, Adyant Coding Club, AI Epoch Club"
+                            eventDate="April 2025"
+                            img={event5}
+                            skills={["Problem Solving", "Team Collaboration", "Competitive Programming", "Project Management"]}
+                        />
+                        <EventCard
+                            eventName="Paper Presentation"
+                            hostedBy="Madras Institute of Technology, Anna University"
+                            eventDate="April 2025"
+                            img={event6}
+                            skills={["Research", "Technical Writing", "Presentation Skills", "Domain Knowledge"]}
+                        />
+                        <EventCard
+                            eventName="Code Quest"
+                            hostedBy="Madras Institute of Technology, Anna University"
+                            eventDate="April 2025"
+                            img={event7}
+                            skills={["Problem Solving", "Logical Reasoning", "Guessing with Clues", "Time Management", "Competitive Programming"]}
                         />
 
 
