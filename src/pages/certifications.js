@@ -9,7 +9,7 @@ import certificate1 from '../../public/images/certificates/certificate1.jpeg'
 import certificate2 from '../../public/images/certificates/certificate2.jpeg'
 import certificate3 from '../../public/images/certificates/certificate3.jpeg'
 import certificate4 from '../../public/images/certificates/certificate4.jpeg'
-import certificate5 from '../../public/images/certificates/certificate5.jpg'
+import certificate5 from '../../public/images/certificates/certificate5.jpeg'
 
 const FramerImage = motion(Image)
 
