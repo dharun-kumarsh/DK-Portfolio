@@ -10,6 +10,7 @@ import project2 from '../../public/images/projects/project2.png'
 import project3 from '../../public/images/projects/project3.png'
 import project4 from '../../public/images/projects/project4.png'
 import project5 from '../../public/images/projects/project5.png'
+import project6 from '../../public/images/projects/project6.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -153,15 +154,16 @@ const projects = () => {
                                 type={"Web Application"}
                             />
                         </div>
-                        {/* <div className='col-span-6 sm:col-span-12'>
-                            <Project
-                                title={"Image Search Engine"}
-                                img={project1}
-                                link={"https://snap-seek-freebird.vercel.app/"}
-                                github={"/"}
-                                type={"Web Application"}
+                        <div className='col-span-12'>
+                            <FeaturedProject
+                                title={"E-Book Sharing Platform"}
+                                img={project6}
+                                summary={"Share and discover your favorite e-books with ease on our intuitive platform, connecting readers and fostering a vibrant literary community."}
+                                link={"https://e-book-arena.vercel.app/"}
+                                github={"https://github.com/dharun-kumarsh/Book-Arena"}
+                                type={"Full Stack Web Application"}
                             />
-                        </div> */}
+                        </div>
 
                     </div>
                 </Layout>
