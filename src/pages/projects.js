@@ -11,6 +11,7 @@ import project3 from '../../public/images/projects/project3.png'
 import project4 from '../../public/images/projects/project4.png'
 import project5 from '../../public/images/projects/project5.png'
 import project6 from '../../public/images/projects/project6.png'
+import project7 from '../../public/images/projects/project7.png'
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -151,6 +152,15 @@ const projects = () => {
                                 img={project5}
                                 link={"https://amaran-fan-hub.vercel.app/"}
                                 github={"https://github.com/dharun-kumarsh/AmaranFanHub"}
+                                type={"Web Application"}
+                            />
+                        </div>
+                        <div className='col-span-6 sm:col-span-12'>
+                            <Project
+                                title={"BMI Calculator App"}
+                                img={project7}
+                                link={"https://bmi-calculator-intern.netlify.app/"}
+                                github={"https://github.com/dharun-kumarsh/bmi-calculator"}
                                 type={"Web Application"}
                             />
                         </div>
