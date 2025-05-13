@@ -26,7 +26,7 @@ export default function Home() {
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
               <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl' />
               <p className='my-4 text-base font-medium md:text-md sm:text-xs'>
-                As a skilled PERN-Stack Developer, I am dedicated to turning ideas into innovative Web Applications. Explore my latest projects and articles, showcasing my expertise in React.js and Web Development.
+                As a skilled Full Stack Frontend Developer, I am dedicated to turning ideas into innovative Web Applications. Explore my latest projects and articles, showcasing my expertise in React.js and Tailwind CSS and Web Development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link
