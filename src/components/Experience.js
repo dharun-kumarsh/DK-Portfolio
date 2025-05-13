@@ -46,7 +46,7 @@ const Experience = () => {
                     />
 
                     <Details
-                        position={"8 hour Hackathon"}
+                        position={"8 Hour Hackathon"}
                         company={"SA Engineering College"}
                         companyLink={"https://www.saec.ac.in/"}
                         time={"18ᵗʰ October 2024"}
@@ -64,7 +64,7 @@ const Experience = () => {
                     />
 
                     <Details
-                        position={"30 hour Hackathon"}
+                        position={"30 Hour Hackathon"}
                         company={"Meenakshi Sundararajan Engineering College"}
                         companyLink={"https://msec.edu.in/"}
                         time={"08 Aug 2024 - 09 Aug 2024"}

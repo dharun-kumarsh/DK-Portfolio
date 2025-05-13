@@ -40,14 +40,21 @@ const Education = () => {
                         type={"B . Tech In Information Technology"}
                         place={"Meenakshi Sundararajan Engineering College"}
                         time={"2023 - 2027"}
-                        info={"I am currently pursuing a Bachelor of Technology in Information Technology at Meenakshi Sundararajan Engineering College. I have studied Python, C, and Java, along with Web Development, Flutter, HTML, and CSS. This diverse skill set has given me a strong foundation in both programming and front-end development."}
+                        info={"I am currently pursuing a Bachelor of Technology in Information Technology at Meenakshi Sundararajan Engineering College. I have studied Python, C, and Java, along with Web Development, React.js, Node.js, and MongoDB. This diverse skill set has given me a strong foundation in both programming and Frontend development."}
                     />
 
                     <Details
                         type={"Web Development Internship"}
                         place={"Adaovi"}
-                        time={"08 January 2024 - Present"}
+                        time={"08 January 2024 - 08 February 2024"}
                         info={"I am currently doing an internship at Adaovi where I am working on a Full Stack Web Development project. I am using Next.js for the frontend and Node.js for the backend. I am also learning about RESTful APIs and how to use them to fetch data from the backend."}
+                    />
+
+                    <Details
+                        type={"Full Stack Web Development Internship"}
+                        place={"Micro IT"}
+                        time={"10 May 2025 - 15 June 2025"}
+                        info={"Having gained experience in Full Stack Web Development at Adaovi, where I worked with React.js for the frontend and Node.js for the backend, and learned about Supabase, I am now pursuing a Full Stack Web Development internship at Micro IT from 10 May 2025 to 15 June 2025."}
                     />
 
                     <Details

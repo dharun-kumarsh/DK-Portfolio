@@ -49,9 +49,9 @@ const About = () => {
                         <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
                             <p className="my-4 font-medium">
-                                Hi, I&apos;m Dharun Kumar S H, a dedicated and versatile Front-End Developer and UI/UX designer with a passion for creating beautiful,
+                                Hi, I&apos;m Dharun Kumar S H, a dedicated and versatile Full Stack Frontend Developer and UI/UX designer with a passion for creating beautiful,
                                 functional, and user-centered digital experiences. With 4 months of professional experience, I have worked with a variety of technologies,
-                                including HTML, CSS, React, Vue.js, Node.js, MySQL, and MongoDB.
+                                including HTML, CSS, React.js, Vue.js, Node.js, PostgreSQL, and Supabase.
                             </p>
 
                             <p className="my-4 font-medium">
