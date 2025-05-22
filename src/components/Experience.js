@@ -46,6 +46,15 @@ const Experience = () => {
                     />
 
                     <Details
+                        position={"Full Stack Web Development Intern"}
+                        company={"Tripletsoft Software Solutions Pvt. Limited"}
+                        companyLink={"https://www.tripletsoft.com"}
+                        time={"01 July 2025 - 01 August 2025"}
+                        address={"126, Poonamallee High Rd, Varalakshmi Nagar, Sentamil Nagar, Maduravoyal, Chennai, Tamil Nadu 600095"}
+                        work={"Engaged in both frontend and backend development for web applications. Contributed to building new features, optimizing existing code, and ensuring seamless integration between user interfaces and server-side logic."}
+                    />
+
+                    <Details
                         position={"8 Hour Hackathon"}
                         company={"SA Engineering College"}
                         companyLink={"https://www.saec.ac.in/"}
