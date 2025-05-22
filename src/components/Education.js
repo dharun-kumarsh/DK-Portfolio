@@ -52,9 +52,9 @@ const Education = () => {
 
                     <Details
                         type={"Full Stack Web Development Internship"}
-                        place={"Micro IT"}
-                        time={"10 May 2025 - 15 June 2025"}
-                        info={"Having gained experience in Full Stack Web Development at Adaovi, where I worked with React.js for the frontend and Node.js for the backend, and learned about Supabase, I am now pursuing a Full Stack Web Development internship at Micro IT from 10 May 2025 to 15 June 2025."}
+                        place={"Tripletsoft Software Solutions Pvt. Limited"}
+                        time={"01 July 2025 - 01 August 2025"}
+                        info={"During my Full Stack Web Development Internship at Tripletsoft Software Solutions Pvt. Limited, I am actively engaged in developing comprehensive web projects. My responsibilities include working with both frontend and backend technologies to build robust and efficient digital solutions."}
                     />
 
                     <Details
