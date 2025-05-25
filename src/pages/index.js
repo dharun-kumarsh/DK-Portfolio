@@ -44,9 +44,9 @@ export default function Home() {
                   />
 
                 </Link>
-                <Link className='ml-4 text-lg font-medium capitalize text-dark hover:underline underline-offset-2 dark:text-light' href="mailto:iam.dharunkumarsh@gmail.com" target='_blank'>
+                {/* <Link className='ml-4 text-lg font-medium capitalize text-dark hover:underline underline-offset-2 dark:text-light' target='_blank'>
                   Contact
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
